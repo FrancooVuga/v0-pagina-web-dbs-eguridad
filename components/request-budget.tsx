@@ -154,7 +154,7 @@ export default function RequestBudget() {
                       <Checkbox
                         id="connectivity"
                         checked={formData.needsConnectivity}
-                        onCheckedChange={(checked: boolean) => handleCheckboxChange("needsConnectivity", checked)}
+                        onCheckedChange={(checked) => handleCheckboxChange("needsConnectivity", checked as boolean)}
                       />
                       <Label htmlFor="connectivity">Conectividad / WiFi</Label>
                     </div>
@@ -162,7 +162,7 @@ export default function RequestBudget() {
                       <Checkbox
                         id="security"
                         checked={formData.needsSecurity}
-                        onCheckedChange={(checked: boolean) => handleCheckboxChange("needsSecurity", checked)}
+                        onCheckedChange={(checked) => handleCheckboxChange("needsSecurity", checked as boolean)}
                       />
                       <Label htmlFor="security">Cámaras de seguridad</Label>
                     </div>
