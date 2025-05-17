@@ -32,8 +32,11 @@ export default function HeroSection() {
           <div className="flex items-center justify-center">
             <div className="relative h-[350px] w-full md:h-[450px] lg:h-[500px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                //src="/placeholder.svg?height=500&width=500"
+                src="/logo_DBSeguridad.jpg"
                 alt="Soluciones de Conectividad"
+                //width={500} 
+                //height={500}
                 fill
                 className="object-cover rounded-lg"
                 priority
